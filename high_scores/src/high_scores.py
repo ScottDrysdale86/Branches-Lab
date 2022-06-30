@@ -7,4 +7,7 @@ def personal_best(scores):
 
 
 def personal_top_three(scores):
-    pass
+    soreted_scores = sorted(scores)
+    mid_list = soreted_scores[::-1]
+    final_list = mid_list[0:3]
+    return final_list
