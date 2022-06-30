@@ -5,10 +5,6 @@ from src.compound_interest import CompoundInterest
 
 class CompoundInterestTest(unittest.TestCase):
     def setUp(self):
-        # self.principle_amount = float(input("Enter priciple amount: "))
-        # self.interest_rate = float(input("Enter the interest rate: "))
-        # self.years = int(input("Enter number of years the amount is invested: "))
-
         self.calculation1 = CompoundInterest(100, 10, 20)
         self.calculation2 = CompoundInterest(100, 6, 10)
         self.calculation3 = CompoundInterest(100000, 5, 8)

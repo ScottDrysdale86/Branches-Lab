@@ -5,7 +5,6 @@ class CompoundInterest:
         self.years = _years
 
     def compound_interest_calculator(self, principle_amount, interest_rate, years):
-        # final_amount = 0
         p = principle_amount
         r = interest_rate / 100
         t = years
